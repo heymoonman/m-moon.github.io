@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <title>Joe Moon Whitehead - Archives</title>
+ <title>{% block title %}{% endblock %}</title>
  <!-- Latest compiled and minified Bootstrap CSS -->
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
 </head>
 <body>
  <div class="container">
-<h1>Archives for Joe Moon Whitehead</h1>
-
-<dl>
-    <dt>Mon 31 July 2023</dt>
-    <dd><a href="www.joemoonwhitehead.com/first-test-article.html">First test article</a></dd>
-</dl>
+  {% block content %}{% endblock %}
  </div> 
 </body>
 </html>
