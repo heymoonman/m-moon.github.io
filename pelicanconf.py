@@ -31,6 +31,12 @@ SOCIAL = (
     ("Another social link", "#"),
 )
 
+ARTICLE_PATHS = ("articles",)
+ARTICLE_URL = "articles/{slug}.html"
+ARTICLE_SAVE_AS = "articles/{slug}.html"
+
+# STATIC_PATHS = ("css", "images")
+
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
