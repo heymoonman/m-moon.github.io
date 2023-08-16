@@ -1,4 +1,9 @@
 Title: About
+Date: 2017-04-14 22:30
+Modified: 2017-04-14 22:30
+Slug: About
+Author: username
+Summary: This is a sample blog.
 
-[A link to my first article!]({filename}/articles/first-article.md)
-[A link to Ben's entry visa! Yippee!!]({static}/images/ben-entry.jpeg)
+
+The About Page for the blog.
