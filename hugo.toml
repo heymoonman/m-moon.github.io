@@ -2,3 +2,8 @@ baseURL = 'https://www.joemoonwhitehead.com'
 languageCode = 'en-us'
 title = 'Joe Moon Whitehead'
 theme = 'ananke'
+
+[params]
+subtitle = 'All things JMW'
+[params.contact]
+email = 'joewhiteheadm (at) gmail.com'
