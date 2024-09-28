@@ -1,9 +1,47 @@
 baseURL = 'https://www.joemoonwhitehead.com'
 languageCode = 'en-us'
 title = 'Joe Moon Whitehead'
-theme = 'ananke'
+theme = 'PaperMod'
+sectionPagesMenu = 'main'
 
 [params]
-subtitle = 'All things JMW'
-[params.contact]
-email = 'joewhiteheadm (at) gmail.com'
+subtitle = 'All things Joe Moon'
+
+[params.author]
+email = 'joewhiteheadm@gmail.com'
+
+[params.homeInfoParams]
+Title = "Joe Moon Whitehead"
+Content = "Confirmed Software Engineer - University of Lancaster CompSci Graduate - Writing & Coding"
+imageUrl = "/jmw.jpeg"                                                                                # optional
+imageTitle = "Joe Moon Whitehead"                                                                     # optional
+imageWidth = 212                                                                                      # custom size
+imageHeight = 212                                                                                     # custom size
+AlignSocialIconsTo = "center"
+
+[menus]
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+# [[menus.main]]
+# name = 'About'
+# pageRef = '/about'
+# weight = 20
+[[menus.main]]
+name = 'CV'
+url = '/files/cv.pdf'
+weight = 30
+
+[[params.socialIcons]]
+name = "GitHub"
+url = "https://github.com/heymoonman/"
+[[params.socialIcons]]
+name = "StackOverflow"
+url = "https://stackoverflow.com/users/8768102/joe-moon"
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/joe-moon-whitehead/"
+[[params.socialIcons]]
+name = "kofi"
+url = "https://www.ko-fi.com/joemoonman"

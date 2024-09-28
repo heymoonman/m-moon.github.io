@@ -1,19 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Joe Moon Whitehead</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Joe Moon Whitehead</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.134.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Sep 2024 22:25:54 +0100</lastBuildDate>
+    <managingEditor>joewhiteheadm@gmail.com</managingEditor>
+    <webMaster>joewhiteheadm@gmail.com</webMaster>
+    <lastBuildDate>Sat, 28 Sep 2024 15:56:27 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Wed, 25 Sep 2024 22:25:54 +0100</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h1 id=&#34;lets-goooooo&#34;&gt;Let&amp;rsquo;s goooooo&lt;/h1&gt;&#xA;&lt;p&gt;What&amp;rsquo;s up nerds, website here - ready to rock your roll straight to the sky!&lt;/p&gt;</description>
+      <title>Customising a Hugo Site</title>
+      <link>http://localhost:1313/posts/customising-a-hugo-site/</link>
+      <pubDate>Sat, 28 Sep 2024 15:56:27 +0100</pubDate><author>joewhiteheadm@gmail.com</author>
+      <guid>http://localhost:1313/posts/customising-a-hugo-site/</guid>
+      <description>&lt;h2 id=&#34;starting-with-a-theme&#34;&gt;Starting with a theme&lt;/h2&gt;
+&lt;p&gt;When you first setup your Hugo site, it makes the most sense to start with a theme that you can play around with.
+A lot of themes provide great in-built configuration options, but later we will get onto customising the
+theme itself.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Programming Language Proficiency</title>
+      <link>http://localhost:1313/posts/programming-language-proficiency/</link>
+      <pubDate>Mon, 30 Sep 2024 12:38:13 +0100</pubDate><author>joewhiteheadm@gmail.com</author>
+      <guid>http://localhost:1313/posts/programming-language-proficiency/</guid>
+      <description>&lt;h1 id=&#34;measuring-programming-language-proficiency&#34;&gt;Measuring programming language proficiency&lt;/h1&gt;
+&lt;p&gt;Whilst reading &lt;em&gt;Ultralearning&lt;/em&gt; by Scott H. Young I began thinking about how we learn programming languages.&lt;/p&gt;
+&lt;p&gt;My language project right now is to learn Go (this site is built on Hugo, a Go static site framework!) to the point
+where I can program fairly complex software &amp;amp; services in it, ideally to the level I can use Python. When learning anything,
+the first hurdle becomes &lt;strong&gt;direction&lt;/strong&gt; - where do I go and when to maximise my learning whilst minimising the roadblocks,
+frustrations, and confusion that comes with big learning curve leaps or non-linear learning paths. If you&amp;rsquo;re lost, you&amp;rsquo;re
+not learning.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
