@@ -18,6 +18,7 @@ imageTitle = "Joe Moon Whitehead"                                               
 imageWidth = 212                                                                                      # custom size
 imageHeight = 212                                                                                     # custom size
 AlignSocialIconsTo = "center"
+ProfileExtraInfo = true
 
 [menus]
 [[menus.main]]

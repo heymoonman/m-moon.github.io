@@ -1,0 +1,10 @@
+<div class="profile-info">
+    {{- with site.Params.homeInfoParams }}
+    {{- if (and site.Params.homeInfoParams.ProfileExtraInfo $.IsHome) }}
+    <h2>Hi!</h2>
+    {{/*
+    <hr> */}}
+    <p>Thanks for visiting!</p>
+    {{- end }}
+    {{- end -}}
+</div>

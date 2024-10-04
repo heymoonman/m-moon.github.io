@@ -4,6 +4,7 @@ date = 2024-09-26T12:38:13+01:00
 publishDate = 2024-09-30T12:38:13+01:00
 draft = true
 tags = ["programming theory", "golang"]
+author = "Joe Moon Whitehead"
 +++
 
 # Measuring programming language proficiency
